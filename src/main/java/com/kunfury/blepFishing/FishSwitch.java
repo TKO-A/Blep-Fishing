@@ -101,13 +101,13 @@ public class FishSwitch{
 		List<String> Lore = new ArrayList<>();   		
 		//Lore.add(fish.Rarity);
 		if(Setup.hasEcon) //Checks that an economy is installed
-			Lore.add("&2Value: " + Variables.CSym + Formatting.DoubleFormat(fish.RealCost));
+			Lore.add("&aWaarde: " + Formatting.DoubleFormat(fish.RealCost) + Variables.CSym);
 		Lore.add(base.Lore);
 		 
-		Lore.add("&8Length: " + Formatting.DoubleFormat(fish.RealSize) + "in.");
+		Lore.add("&8Lengte: " + Formatting.DoubleFormat(fish.RealSize) + "cm.");
 			 
 		LocalDateTime now = LocalDateTime.now();
-		String details = ("&8Caught By: " + fish.PlayerName + " on " + now.toLocalDate());
+		String details = ("&8Gevangen door " + fish.PlayerName + " op " + now.toLocalDate());
 		Lore.add(details);
 		
 		List<String> colorLore = new ArrayList<>();

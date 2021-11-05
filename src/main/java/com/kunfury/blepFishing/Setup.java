@@ -20,7 +20,6 @@ import com.kunfury.blepFishing.Signs.FishSign;
 
 import com.kunfury.blepFishing.Miscellaneous.CreateConfig;
 import com.kunfury.blepFishing.Miscellaneous.Reload;
-import com.kunfury.blepFishing.Miscellaneous.Villagers;
 import com.kunfury.blepFishing.Tournament.TournamentRewards;
 import net.milkbowl.vault.economy.Economy;
 
